@@ -4,6 +4,9 @@ import java.time.LocalDateTime;
 
 public class TaskTest {
 
+  @Rule
+  public ClearRule clearRule = new ClearRule();
+
   @Test
   public void Task_instantiatesCorrectly_true() {
     Task myTask = new Task("Water the garden");
