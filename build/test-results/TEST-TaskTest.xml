@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TaskTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2016-04-12T23:52:02" hostname="Dillons-MacBook-Pro.local" time="0.002">
+<testsuite name="TaskTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2016-04-13T22:04:07" hostname="Dillons-MacBook-Pro.local" time="0.007">
   <properties/>
-  <testcase name="find_returnsNullWhenNoTaskFound_null" classname="TaskTest" time="0.0"/>
-  <testcase name="clear_emptiesAllTasksFromArrayList" classname="TaskTest" time="0.001"/>
-  <testcase name="isCompleted_isFalseAfterInstation_false" classname="TaskTest" time="0.0"/>
-  <testcase name="getCreateAt_instatiatesWithCurrentTime_today" classname="TaskTest" time="0.0"/>
-  <testcase name="newId_tasksInstantiateWithAnID_true" classname="TaskTest" time="0.0"/>
+  <testcase name="find_returnsNullWhenNoTaskFound_null" classname="TaskTest" time="0.001"/>
+  <testcase name="newTask_displayATask" classname="TaskTest" time="0.0"/>
+  <testcase name="clear_emptiesAllTasksFromArrayList" classname="TaskTest" time="0.0"/>
+  <testcase name="isCompleted_isFalseAfterInstantiaon_false" classname="TaskTest" time="0.001"/>
+  <testcase name="newTask_instatiateCorrectly_true" classname="TaskTest" time="0.0"/>
+  <testcase name="getCreatedAt_instantiatesWithCurrentTime_today" classname="TaskTest" time="0.0"/>
+  <testcase name="newId_tasksInstantiateWithAnID_true" classname="TaskTest" time="0.001"/>
   <testcase name="all_returnsAllInstancesOfTask_true" classname="TaskTest" time="0.001"/>
   <testcase name="find_returnsTaskWithSameId_secondTask" classname="TaskTest" time="0.0"/>
-  <testcase name="Task_instantiatesCorrectly_true" classname="TaskTest" time="0.0"/>
-  <testcase name="Task_instantiatesWithDescription_true" classname="TaskTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

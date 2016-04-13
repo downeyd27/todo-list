@@ -9,7 +9,7 @@ public class Task {
   private boolean mCompleted;
   private int mId;
 
-  public Task(String description) {
+  public Task (String description) {
     mDescription = description;
     mCreatedAt = LocalDateTime.now();
     mCompleted = false;
